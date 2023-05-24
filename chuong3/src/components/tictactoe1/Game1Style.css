@@ -1,0 +1,46 @@
+.game-board1 {
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.game-cell1 {
+    cursor: pointer;
+    font-size: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.game-cell1.isO {
+    color: orangered;
+}
+
+.game-cell1.isX {
+    color: dodgerblue;
+}
+
+.winnerText {
+    color: deeppink;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.btnResetGame {
+    background-color: blueviolet;
+    color: #fff;
+    margin: 20px;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
